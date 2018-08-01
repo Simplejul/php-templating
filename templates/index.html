@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>php templating</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                    <h1>{{company}}</h1>
+                    <p>{{textRandom}}}</p>
+
+                    <p>At {{company}}, we create {{productAdjective}} {{productName}} made of {{productMaterial}}.</p>
+
+                    <p>Find out more on {{http}}</p>
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{{image}}" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{productName}}</h5>
+                            <p class="card-text"> 
+                                <p>Material: {{productMaterial}}</p> 
+                                <p>Color: {{color}}</p>
+                                <p>{{price}} $ only!</p>
+                            </p>
+                            <a href="#" class="btn btn-primary">Take my money</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col">
+                    <div class="text-center ">
+                        <img src="{{image2}}" class="rounded rounded-circle" alt="userimg">
+                    </div>
+                    <div class="text-center">
+                        <p>{{userName}}</p>
+                        <p>{{job}}</p>
+                        <h5>Contact info</h5>
+                        <p>{{email}}</p>
+                        <p>07.00.07.00.07</p>
+                        <p>13 rue du vendredi</p>
+                        <p>13013 Marseille</p>
+                    </div>
+            </div>
+          </div>
+    </div>
+
+</body>
+</html>

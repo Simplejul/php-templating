@@ -1,0 +1,14 @@
+{
+    "name": "julien/php-templating",
+    "authors": [
+        {
+            "name": "Simplejul",
+            "email": "simplejul@protonmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.8",
+        "twig/twig": "^2.5",
+        "twbs/bootstrap": "4.1.3"
+    }
+}
