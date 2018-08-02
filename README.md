@@ -1,7 +1,7 @@
 # php-templating
   
 
-  [Lien heroku](https://git.heroku.com/phptemplating.git)
+  [Lien heroku](https://phptemplating.herokuapp.com/)
 
 
 
